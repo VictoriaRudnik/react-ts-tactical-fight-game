@@ -1,0 +1,75 @@
+.field_container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 0 5%;
+  height: 100%;
+}
+
+.field_container-team-one {
+  margin: 1% 15% 1.5%;
+}
+.field_container-team-two {
+  margin: 1.5% 15% 1%;
+}
+
+.field_container-team-one, .field_container-team-two {
+  height: 44%;
+  /* background-color: white; */
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+
+.field_container-cards-team {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.field_line-between-team{
+  height: 3px;
+  width: 100%;
+  background-color: yellow;
+}
+
+
+.field_container-button {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  border: 3px solid rgb(14, 52, 40);
+  border-radius: 10%;
+  height: 50px;
+  width: 100px;
+  background-color: rgb(14, 79, 42);
+  font-weight: 500;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.field_button {
+  outline: none;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(14, 79, 42);
+  border: none;
+  color: white;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: none;
+  border-radius: 10%;
+}
+
+.field_container-button-size {
+  height: 56px;
+  width: 106px;
+}

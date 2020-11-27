@@ -1,0 +1,68 @@
+.card_container {
+  /* margin: 0 %; */
+  height: 41%;
+  width: 17%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid rgb(14, 52, 40);
+  margin: 0 7%;
+  /* background-color: rgb(10, 32, 26); */
+  background-color: rgb(14, 79, 42);
+}
+
+
+.card_image-defended {
+  background-color: grey
+}
+
+.card_image-paralyzed {
+  background-color: rgb(26, 23, 23);
+}
+
+.card_image-unit {
+  height: 100%;
+  border-radius: 50%;
+}
+
+.card_div-image-unit {
+  height: 35%;
+  /* height: 40px; */
+  border-radius: 200px;
+}
+
+.card_image-hidden {
+  opacity: 20%;
+}
+
+.card_image-bright {
+  box-shadow: 0 0 0 2px rgb(0, 216, 143), 0 0 0 4px yellow;
+}
+
+.card_name-unit {
+  /* margin: 10% 0 0; */
+  font-weight: 500;
+  font-size: 75%;
+  font-family: Arial, Helvetica, sans-serif;
+  /* color: rgb(0,216,143); */
+  color: rgb(248, 215, 37);
+}
+
+.card_hp-unit {
+  color: white;
+  font-size: 65%;
+}
+
+.card_span-damage {
+  color: red;
+}
+
+.card_span-heal {
+  color: rgb(0, 216, 143);
+}
+
+.card_image-attacable-units-bright {
+  box-shadow: 0 0 0 1px tomato, 0 0 0 3px rgb(139, 5, 5);
+}
